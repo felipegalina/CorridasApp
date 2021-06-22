@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "track",
+    "slug": "track",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gauravadhikari.track",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.gauravadhikari.track",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAIbnW-2-cWZDaVUrShJ0qeEJe-1rBodgk"
+        }
+      },
+      "versionCode": 1
+    }
+  }
+}
